@@ -53,8 +53,8 @@ void connectMqttServer() {
 void connectToWiFi() {
   Serial.println("Connecting to WiFi...");
   WiFiManager wifiManager;
-  wifiManager.autoConnect("ESP32AP");  // "ESP32AP" เป็นชื่อของอุปกรณ์ WiFi ที่จะใช้ในโหมด Access Point
-  Serial.println("WiFi connected!");   // แสดงข้อความเมื่อเชื่อมต่อ WiFi สำเร็จ
+  wifiManager.autoConnect("ESP32AP"); 
+  Serial.println("WiFi connected!");   
 }
 
 void checkingWifi() {
