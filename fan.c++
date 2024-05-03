@@ -2,7 +2,7 @@
 #include <MQTT.h>
 #include <ArduinoJson.h>
 #include <WiFi.h>
-#include <WiFiManager.h> // เรียกใช้ไลบรารี WiFiManager
+#include <WiFiManager.h> 
 
 
 
